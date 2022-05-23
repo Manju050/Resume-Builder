@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<div class="container pt-5 bg-light">
+<div class="container pt-5 mt-2 bg-light">
+  <h1><strong>Skills</strong></h1>
+  <form id="skillsForm">
     <div class="row g-2">
         <div class="col-md">
           <div class="form-floating mb-3">
@@ -86,4 +88,11 @@ layout: default
           </div>
         </div>
     </div>
+    <button class="btn btn-primary" onclick="javascript:skillFunc();">Submit</button>
+  </form>
 </div>
+<script type="text/javascript">
+  function skillFunc() {
+    const skillObject = Array.from(document.querySelectorAll('#skillsForm input')).reduce((acc, input) => ({ ...acc, [input.id]: input.value}), {});
+  }
+</script>
