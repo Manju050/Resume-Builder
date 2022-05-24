@@ -1,19 +1,22 @@
 ---
 layout: default
-title: Home Page
+title: Resume Builder
 ---
-<div class="pt-5" style="background-color: aqua;">
-    <div class="container pt-5">
-        <div class="row g-2" style="margin-bottom: -200px;">
-            <div class="col-md">
-                <h1 class="home-page-text"><strong>Let's Build Your First Impression</strong></h1>
-            </div>
-            <div class="col-md pt-5">
-                <img src="https://static.vecteezy.com/system/resources/previews/003/478/772/original/cute-boy-employee-office-business-man-cartoon-vector.jpg" alt="..." width="400px" height="400px" class="float-end">
-            </div>
-        </div>
-        <div class="text-center">
-            <a type="button" class="btn btn-primary rounded-pill btn-lg" href="template-1.html">GET STARTED</a>
-        </div>
-    </div>
+<section>
+    <img src="backGround.jpg" id="bg">
+    <h2 id="text">Let's Build Your First Impression</h2>
+</section>
+<script type="text/javascript">
+    let bg = document.getElementById('bg');
+    let text = document.getElementById('text');
+
+    window.addEventListener('scroll',function(){
+        var value = window.scrollY;
+
+        bg.style.top = value * 0.5 + 'px';
+        text.style.top = value * 1 + 'px';
+    })
+</script>
+<div class="container" style="text-align: center;">
+    <a href="forms.html">Get Started</a>
 </div>
