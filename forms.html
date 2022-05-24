@@ -27,11 +27,11 @@ title: Form
         <br>
         <div class="form-floating mb-3">
           <label for="phone" class="form-label">Phone</label>
-          <input type="number" max="10" id="phno" class="form-control" name="phone" required>
+          <input type="number" max="10" id="phone" class="form-control" name="phone" required>
         </div>
         <br>
         <div class="form-floating mb-3">
-          <label class="form-label">ADDRESS:       Street,area,city,state,pin</label>
+          <label class="form-label" for="street" >ADDRESS:       Street,area,city,state,pin</label>
           <input type="text" class="form-control" id="street" name="street">
         </div>
         <br>
@@ -42,12 +42,12 @@ title: Form
     <h1 style="text-align: center;" class="text-black"><strong>EDUCATIONAL QUALIFICATIONS</strong></h1>
     <div class="container pt-5">
       <div class="form-floating mb-3">
-        <label class="form-label">Graduation Details</label>
-        <input type="text" class="form-control" name="grad_det">
+        <label class="form-label" for="grad_det" >Graduation Details</label>
+        <input type="text" class="form-control" id="grad_det" name="grad_det">
       </div>
       <div class="form-floating mb-3">
-        <label class="form-label">Name of Institue or University</label>
-        <input type="text" class="form-control" name="ins_uni">
+        <label class="form-label" for="ins_uni" >Name of Institue or University</label>
+        <input type="text" class="form-control" id="ins_uni" name="ins_uni">
       </div>
     </div>
   </form>
@@ -57,13 +57,13 @@ title: Form
       <div class="row g-2">
         <div class="col-md">
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="skill1" placeholder="Skill">
+            <input type="text" class="form-control" id="skill1" name="skill1" placeholder="Skill">
             <label for="skill1">Skill</label>
           </div>
         </div>
         <div class="col-md">
           <div class="form-floating mb-3">
-            <input type="number" class="form-control" id="progress1" min="0" max="100" placeholder="number between 0 - 100">
+            <input type="number" class="form-control" id="progress1" name="progress1" min="0" max="100" placeholder="number between 0 - 100">
             <label for="progress1">Progress</label>
           </div>
         </div>
@@ -71,70 +71,70 @@ title: Form
       <div class="row g-2">
         <div class="col-md">
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="skill2" placeholder="Skill">
-            <label for="skill1">Skill</label>
+            <input type="text" class="form-control" id="skill2" name="skill2" placeholder="Skill">
+            <label for="skill2">Skill</label>
           </div>
         </div>
         <div class="col-md">
           <div class="form-floating mb-3">
-            <input type="number" class="form-control" id="progress2" min="0" max="100" placeholder="number between 0 - 100">
-            <label for="progress1">Progress</label>
-          </div>
-        </div>
-      </div>
-      <div class="row g-2">
-        <div class="col-md">
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="skill3" placeholder="Skill">
-            <label for="skill1">Skill</label>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="form-floating mb-3">
-            <input type="number" class="form-control" id="progress3" min="0" max="100" placeholder="number between 0 - 100">
-            <label for="progress1">Progress</label>
+            <input type="number" class="form-control" id="progress2" name="progress2" min="0" max="100" placeholder="number between 0 - 100">
+            <label for="progress2">Progress</label>
           </div>
         </div>
       </div>
       <div class="row g-2">
         <div class="col-md">
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="skill4" placeholder="Skill">
-            <label for="skill1">Skill</label>
+            <input type="text" class="form-control" id="skill3" name="skill3" placeholder="Skill">
+            <label for="skill3">Skill</label>
           </div>
         </div>
         <div class="col-md">
           <div class="form-floating mb-3">
-            <input type="number" class="form-control" id="progress4" min="0" max="100" placeholder="number between 0 - 100">
-            <label for="progress1">Progress</label>
-          </div>
-        </div>
-      </div>
-      <div class="row g-2">
-        <div class="col-md">
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="skill5" placeholder="Skill">
-            <label for="skill1">Skill</label>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="form-floating mb-3">
-            <input type="number" class="form-control" id="progress5" min="0" max="100" placeholder="number between 0 - 100">
-            <label for="progress1">Progress</label>
+            <input type="number" class="form-control" id="progress3" name="progress3" min="0" max="100" placeholder="number between 0 - 100">
+            <label for="progress3">Progress</label>
           </div>
         </div>
       </div>
       <div class="row g-2">
         <div class="col-md">
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="skill6" placeholder="Skill">
-            <label for="skill1">Skill</label>
+            <input type="text" class="form-control" id="skill4" name="skill4" placeholder="Skill">
+            <label for="skill4">Skill</label>
           </div>
         </div>
         <div class="col-md">
           <div class="form-floating mb-3">
-            <input type="number" class="form-control" id="progress6" min="0" max="100" placeholder="number between 0 - 100">
-            <label for="progress1">Progress</label>
+            <input type="number" class="form-control" id="progress4" name="progress4" min="0" max="100" placeholder="number between 0 - 100">
+            <label for="progress4">Progress</label>
+          </div>
+        </div>
+      </div>
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="skill5" name="skill5" placeholder="Skill">
+            <label for="skill5">Skill</label>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="progress5" name="progress5" min="0" max="100" placeholder="number between 0 - 100">
+            <label for="progress5">Progress</label>
+          </div>
+        </div>
+      </div>
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="skill6" name="skill6" placeholder="Skill">
+            <label for="skill6">Skill</label>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="progress6" name="progress6" min="0" max="100" placeholder="number between 0 - 100">
+            <label for="progress6">Progress</label>
           </div>
         </div>
       </div>
