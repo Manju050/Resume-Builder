@@ -6,27 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume Builder</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <section>
-    <img src="backGround.jpg" id="bg">
-    <h2 id="text">Let's Build Your First Impression</h2>
+    <section class="mainSection">
+    <div><img src="assets/resume-removebg-preview.png" alt="..." /></div>
+    <div class="textCenter" >
+        <h2 id="text">Let's Build Your First Impression</h2>
+        <button><a href="forms.html">Get Started</a></button>
+    </div>
 </section>
-<script type="text/javascript">
-    let bg = document.getElementById('bg');
-    let text = document.getElementById('text');
 
-    window.addEventListener('scroll',function(){
-        var value = window.scrollY;
-
-        bg.style.top = value * 0.5 + 'px';
-        text.style.top = value * 1 + 'px';
-    })
-</script>
-<div class="container" style="text-align: center;">
-    <a href="forms.html">Get Started</a>
-</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

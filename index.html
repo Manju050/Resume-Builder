@@ -2,21 +2,10 @@
 layout: default
 title: Resume Builder
 ---
-<section>
-    <img src="backGround.jpg" id="bg">
-    <h2 id="text">Let's Build Your First Impression</h2>
+<section class="mainSection">
+    <div><img src="assets/resume-removebg-preview.png" alt="..." /></div>
+    <div class="textCenter" >
+        <h2 id="text">Let's Build Your First Impression</h2>
+        <button><a href="forms.html">Get Started</a></button>
+    </div>
 </section>
-<script type="text/javascript">
-    let bg = document.getElementById('bg');
-    let text = document.getElementById('text');
-
-    window.addEventListener('scroll',function(){
-        var value = window.scrollY;
-
-        bg.style.top = value * 0.5 + 'px';
-        text.style.top = value * 1 + 'px';
-    })
-</script>
-<div class="container" style="text-align: center;">
-    <a href="forms.html">Get Started</a>
-</div>
